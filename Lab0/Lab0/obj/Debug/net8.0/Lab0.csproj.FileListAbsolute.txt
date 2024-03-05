@@ -1,0 +1,14 @@
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\bin\Debug\net8.0\Lab0.exe
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\bin\Debug\net8.0\Lab0.deps.json
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\bin\Debug\net8.0\Lab0.runtimeconfig.json
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\bin\Debug\net8.0\Lab0.dll
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\bin\Debug\net8.0\Lab0.pdb
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.AssemblyInfoInputs.cache
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.AssemblyInfo.cs
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.csproj.CoreCompileInputs.cache
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.dll
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\refint\Lab0.dll
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.pdb
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\Lab0.genruntimeconfig.cache
+C:\Users\s28370\Desktop\APBD-s28370\Lab0\Lab0\obj\Debug\net8.0\ref\Lab0.dll
