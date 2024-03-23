@@ -28,4 +28,9 @@ public abstract class Container
     protected static string GenerateSerialNumber(string type) {
         return $"KON-{type}-{id++}";
     }
+
+    public override string ToString()
+    {
+        return "serialNumber = " + serialNumber + ", " +  ", cargoMass = " + cargoMass + ", height = " + height + ", tareWeight = " + tareWeight + ", depth = " + depth + ", maxPayload = " + maxPayload;
+    }
 }

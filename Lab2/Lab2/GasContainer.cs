@@ -2,11 +2,11 @@
 
 public class GasContainer : Container, IHazardNotifier
 {
-    private float pressure { get; set; }
+    private double Pressure { get; set; }
     
-    public GasContainer(string serialNumber, double cargoMass, double height, double tareWeight, double depth, double maxPayload, float pressure) : base(GenerateSerialNumber("G"), cargoMass, height, tareWeight, depth, maxPayload)
+    public GasContainer(double cargoMass, double height, double tareWeight, double depth, double maxPayload, double pressure) : base(GenerateSerialNumber("G"), cargoMass, height, tareWeight, depth, maxPayload)
     {
-        this.pressure = pressure;
+        this.Pressure = pressure;
     }
 
     public override void LoadCargo(double mass)
@@ -19,6 +19,7 @@ public class GasContainer : Container, IHazardNotifier
         }
         else
         {
+            Console.WriteLine("Loading succeeded");
             cargoMass += mass;
         }
     }
@@ -33,5 +34,10 @@ public class GasContainer : Container, IHazardNotifier
     public void NotifyHazard()
     {
         Console.WriteLine($"HAZARD! {serialNumber}");
+    }
+
+    public override string ToString()
+    {
+        return base.ToString() + ", pressure = " + Pressure;
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s28370\\Desktop\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj": {}
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s28370\\Desktop\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj": {
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s28370\\Desktop\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "C:\\Users\\s28370\\Desktop\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj",
-        "packagesPath": "C:\\Users\\s28370\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s28370\\Desktop\\APBD-s28370\\Lab2\\Lab2\\obj\\",
+        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab2\\Lab2\\Lab2.csproj",
+        "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s28370\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

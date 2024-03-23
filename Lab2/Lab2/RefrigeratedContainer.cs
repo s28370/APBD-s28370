@@ -24,7 +24,13 @@ public class RefrigeratedContainer : Container
         }
         else
         {
+            Console.WriteLine("Loading succeeded");
             cargoMass += mass;
         }
+    }
+
+    public override string ToString()
+    {
+        return base.ToString() + ", ProductType = " + ProductType + ", Temperature = " + Temperature;
     }
 }
