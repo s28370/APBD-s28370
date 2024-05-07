@@ -140,4 +140,38 @@ namespace Lab6.Controllers;
                 return StatusCode(500, $"An error occured: {ex.Message}");
             }
         }
+        
+        [HttpPost("AddUsingProcedure")]
+        public IActionResult AddProductToWarehouseUsingProcedure([FromBody] ProductWarehouseRequest request)
+        {
+            if (request.Amount <= 0)
+            {
+                return BadRequest("Amount must be greater than zero.");
+            }
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (var command =
+                       new SqlCommand(@"AddProductToWarehouse",
+                           connection))
+                {
+                    command.CommandType = System.Data.CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@IdProduct", request.ProductId);
+                    command.Parameters.AddWithValue("@IdWarehouse", request.WarehouseId);
+                    command.Parameters.AddWithValue("@Amount", request.Amount);
+                    command.Parameters.AddWithValue("@CreatedAt", request.CreatedAt);
+
+                    try
+                    {
+                        using var reader = command.ExecuteReader();
+                        reader.Read();
+                        return Ok(reader["NewId"].ToString());
+                    }
+                    catch (Exception ex)
+                    {
+                        return StatusCode(500, $"An error occured: {ex.Message}");
+                    }
+                }
+            }
+        }
     }
