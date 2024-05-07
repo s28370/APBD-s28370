@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\Lab6.csproj": {}
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\Lab6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\Lab6.csproj": {
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\Lab6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\Lab6.csproj",
+        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\Lab6.csproj",
         "projectName": "Lab6",
-        "projectPath": "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\Lab6.csproj",
+        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\Lab6.csproj",
         "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\obj\\",
+        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",

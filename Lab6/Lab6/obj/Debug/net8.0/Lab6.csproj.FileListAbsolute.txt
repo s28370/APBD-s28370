@@ -37,3 +37,43 @@ C:\Users\makci\RiderProjects\Lab6\Lab6\obj\Debug\net8.0\refint\Lab6.dll
 C:\Users\makci\RiderProjects\Lab6\Lab6\obj\Debug\net8.0\Lab6.pdb
 C:\Users\makci\RiderProjects\Lab6\Lab6\obj\Debug\net8.0\Lab6.genruntimeconfig.cache
 C:\Users\makci\RiderProjects\Lab6\Lab6\obj\Debug\net8.0\ref\Lab6.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\appsettings.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Lab6.exe
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Lab6.deps.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Lab6.runtimeconfig.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Lab6.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Lab6.pdb
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.csproj.AssemblyReference.cache
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.AssemblyInfo.cs
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.sourcelink.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets\msbuild.Lab6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets\msbuild.build.Lab6.props
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Lab6.props
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Lab6.props
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\scopedcss\bundle\Lab6.styles.css
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.csproj.CopyComplete
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\refint\Lab6.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.pdb
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\Lab6.genruntimeconfig.cache
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab6\Lab6\obj\Debug\net8.0\ref\Lab6.dll

@@ -12,20 +12,20 @@ namespace Lab6.Controllers;
         private readonly string connectionString = "Server=localhost;Database=APBD;User Id=sa;Password=asdP929klks";
 
         [HttpPost]
-        public IActionResult AddProductToWarehouse([FromBody] ProductWarehouseRequest request)
+        public async Task<IActionResult> AddProductToWarehouse([FromBody] ProductWarehouseRequest request)
         {
             if (request.Amount <= 0)
             {
                 return BadRequest("Amount has to be greater than zero");
             }
 
-            using SqlConnection connection = new SqlConnection(connectionString);
-            using SqlCommand command = new SqlCommand();
+            await using  SqlConnection connection = new SqlConnection(connectionString);
+            await using SqlCommand command = new SqlCommand();
             command.Connection = connection;
             
-            connection.Open();
-            var transaction = connection.BeginTransaction();
-            command.Transaction = transaction;
+            await connection.OpenAsync();
+            var transaction = await connection.BeginTransactionAsync();
+            command.Transaction = (SqlTransaction)transaction;
             try 
             {
                 command.CommandText = @"SELECT * FROM [Order] WHERE IdProduct = @IdProduct AND Amount = @Amount";
@@ -37,9 +37,9 @@ namespace Lab6.Controllers;
 
                 Order order = new Order();
                 int k = 0;
-                using (var foundOrder = command.ExecuteReader())
+                using (var foundOrder = await command.ExecuteReaderAsync())
                 {
-                    while (foundOrder.Read())
+                    while (await foundOrder.ReadAsync())
                     {
                         order = new Order
                         {
@@ -64,12 +64,12 @@ namespace Lab6.Controllers;
                 }
                 
                 command.CommandText = $"SELECT * FROM Product_Warehouse WHERE IdOrder = {order.IdOrder}";
-                using (var foundProductWarehouse = command.ExecuteReader())
+                using (var foundProductWarehouse = await command.ExecuteReaderAsync())
                 {
 
                     ProductWarehouse productWarehouse = new ProductWarehouse();
                     k = 0;
-                    while (foundProductWarehouse.Read())
+                    while (await foundProductWarehouse.ReadAsync())
                     {
                         k++;
                     }
@@ -82,11 +82,11 @@ namespace Lab6.Controllers;
 
                 var product = new Product();
                 command.CommandText = @"SELECT * FROM Product WHERE IdProduct = @IdProduct";
-                using (var foundProduct = command.ExecuteReader())
+                using (var foundProduct = await command.ExecuteReaderAsync())
                 {
                     k = 0;
 
-                    while (foundProduct.Read())
+                    while (await foundProduct.ReadAsync())
                     {
                         product = new Product
                         {
@@ -103,17 +103,17 @@ namespace Lab6.Controllers;
                 }
 
 
-                command.CommandText = $@"UPDATE [Order] SET FulfilledAt = @FulfilledAt WHERE IdOrder = {order.IdOrder}";
+                command.CommandText = $"UPDATE [Order] SET FulfilledAt = @FulfilledAt WHERE IdOrder = {order.IdOrder}";
                 
-                command.ExecuteNonQuery();
+                await command.ExecuteNonQueryAsync();
 
                 var list = new List<int>();
                 list.Add(0);
 
                 command.CommandText = "SELECT * FROM Product_Warehouse";
-                using (var foundAllProductWarehouse = command.ExecuteReader())
+                using (var foundAllProductWarehouse = await command.ExecuteReaderAsync())
                 {
-                    while (foundAllProductWarehouse.Read())
+                    while (await foundAllProductWarehouse.ReadAsync())
                     {
                         list.Add((int)foundAllProductWarehouse["IdProductWarehouse"]);
                     }
@@ -129,14 +129,14 @@ namespace Lab6.Controllers;
                                         VALUES ({newId}, @IdProduct, @IdOrder, @Amount, @Price, @FulfilledAt)";
                 command.Parameters.AddWithValue("@IdOrder", order.IdOrder);
                 command.Parameters.AddWithValue("@Price", price);
-                command.ExecuteNonQuery();
+                await command.ExecuteNonQueryAsync();
                 
-                transaction.Commit();
+                await transaction.CommitAsync();
                 return Ok(newId);
             }
             catch(Exception ex)
             {
-                transaction.Rollback();
+                await transaction.RollbackAsync();
                 return StatusCode(500, $"An error occured: {ex.Message}");
             }
         }

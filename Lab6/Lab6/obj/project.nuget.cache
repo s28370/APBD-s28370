@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUETAHZUf4jl8N16kPo3ru+KJkOno1gtYCSwZ4TVW1AUJIcAhW3Jw6hH99/3MapXGJmidGeeKrsOTpEIhgus4A==",
+  "dgSpecHash": "BbQJlTF+9T9ewx1JEODDh3UN+PLANRuYg0QEzzYwcwVSauD6o9PUFGbXRreJHA1BsE3vt92eOjqoD3MwMZ1jFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\makci\\RiderProjects\\Lab6\\Lab6\\Lab6.csproj",
+  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab6\\Lab6\\Lab6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
