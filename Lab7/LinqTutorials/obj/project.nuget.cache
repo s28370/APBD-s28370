@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JNIOzXq7srRztxo2c00+NgC5T02SBdIagKKa2V01Xs+irqy8+usXiyom0mrNJO+CHcmX+nasl9CtQaAnJ/JXOg==",
+  "dgSpecHash": "imPS3mTe92r83SJQuqmFmV/7g3De/stYuBSZbIgEQ3sN4zm7ie6rrA7dD47KA8PQRH20hkJOyRACJoUv81tZAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\LinqCwiczenia\\LinqTutorials\\LinqTutorials.csproj",
+  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab7\\LinqTutorials\\LinqTutorials.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",

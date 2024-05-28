@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\LinqCwiczenia\\LinqTutorials\\LinqTutorials.csproj",
+      "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab7\\LinqTutorials\\LinqTutorials.csproj",
       "projectName": "LinqTutorials",
-      "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\LinqCwiczenia\\LinqTutorials\\LinqTutorials.csproj",
+      "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab7\\LinqTutorials\\LinqTutorials.csproj",
       "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\LinqCwiczenia\\LinqTutorials\\obj\\",
+      "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab7\\LinqTutorials\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",

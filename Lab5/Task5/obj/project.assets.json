@@ -901,11 +901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Task5\\Task5\\Task5.csproj",
+      "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab5\\Task5\\Task5.csproj",
       "projectName": "Task5",
-      "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Task5\\Task5\\Task5.csproj",
+      "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab5\\Task5\\Task5.csproj",
       "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Task5\\Task5\\obj\\",
+      "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab5\\Task5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UepGiZLwEZ5IcsqENaIqW/q2Agral3IIBg2FvimdN3T9KZgalIn4vc9Jc/ispgfq9Y/0KRzZHF1qKL3EjHERHA==",
+  "dgSpecHash": "PNQzC0U4+c4LcRfrnrqBz0iLkT/QSZKazEP2xi+G9VrA29KyJF3an5xgihWTD4zqMphQto5/BKe4yHL3qOKRKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Task5\\Task5\\Task5.csproj",
+  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Lab5\\Task5\\Task5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\makci\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
