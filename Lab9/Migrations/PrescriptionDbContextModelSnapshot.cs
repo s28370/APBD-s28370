@@ -46,7 +46,7 @@ namespace APBD9.Migrations
 
                     b.HasKey("IdDoctor");
 
-                    b.ToTable("Doctors");
+                    b.ToTable("Doctors", (string)null);
                 });
 
             modelBuilder.Entity("APBD9.Models.Medicament", b =>
@@ -74,7 +74,7 @@ namespace APBD9.Migrations
 
                     b.HasKey("IdMedicament");
 
-                    b.ToTable("Medicaments");
+                    b.ToTable("Medicaments", (string)null);
                 });
 
             modelBuilder.Entity("APBD9.Models.Patient", b =>
@@ -100,7 +100,7 @@ namespace APBD9.Migrations
 
                     b.HasKey("IdPatient");
 
-                    b.ToTable("Patients");
+                    b.ToTable("Patients", (string)null);
                 });
 
             modelBuilder.Entity("APBD9.Models.Prescription", b =>
@@ -129,7 +129,7 @@ namespace APBD9.Migrations
 
                     b.HasIndex("PatientIdPatient");
 
-                    b.ToTable("Prescriptions");
+                    b.ToTable("Prescriptions", (string)null);
                 });
 
             modelBuilder.Entity("APBD9.Models.PrescriptionMedicament", b =>
@@ -152,19 +152,19 @@ namespace APBD9.Migrations
 
                     b.HasIndex("IdMedicament");
 
-                    b.ToTable("PrescriptionMedicaments");
+                    b.ToTable("PrescriptionMedicaments", (string)null);
                 });
 
             modelBuilder.Entity("APBD9.Models.Prescription", b =>
                 {
                     b.HasOne("APBD9.Models.Doctor", "Doctor")
-                        .WithMany()
+                        .WithMany("Prescriptions")
                         .HasForeignKey("DoctorIdDoctor")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("APBD9.Models.Patient", "Patient")
-                        .WithMany()
+                        .WithMany("Prescriptions")
                         .HasForeignKey("PatientIdPatient")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -193,9 +193,19 @@ namespace APBD9.Migrations
                     b.Navigation("Prescription");
                 });
 
+            modelBuilder.Entity("APBD9.Models.Doctor", b =>
+                {
+                    b.Navigation("Prescriptions");
+                });
+
             modelBuilder.Entity("APBD9.Models.Medicament", b =>
                 {
                     b.Navigation("PrescriptionMedicaments");
+                });
+
+            modelBuilder.Entity("APBD9.Models.Patient", b =>
+                {
+                    b.Navigation("Prescriptions");
                 });
 
             modelBuilder.Entity("APBD9.Models.Prescription", b =>

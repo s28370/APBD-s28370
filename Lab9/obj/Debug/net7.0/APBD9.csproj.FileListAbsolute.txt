@@ -250,9 +250,9 @@ C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.APBD9.props
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\scopedcss\bundle\APBD9.styles.css
-C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\APBD9.csproj.CopyComplete
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\APBD9.dll
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\refint\APBD9.dll
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\APBD9.pdb
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\APBD9.genruntimeconfig.cache
 C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\ref\APBD9.dll
+C:\Users\makci\OneDrive\Робочий стіл\APBD-s28370\Lab9\obj\Debug\net7.0\APBD9.csproj.Up2Date
