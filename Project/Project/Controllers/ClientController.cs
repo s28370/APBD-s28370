@@ -70,7 +70,7 @@ public class ClientController : ControllerBase
     [HttpPut("company/{id}")]
     public async Task<ActionResult> UpdateClient(int id, [FromBody] CompanyClientPutDto clientPutDto)
     {
-        var userRole = User.Claims.FirstOrDefault(c => c.Type == "role")?.Value;
+        var userRole = User.Claims.FirstOrDefault(c => c.Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/role")?.Value;
 
         if (userRole != "Admin")
         {

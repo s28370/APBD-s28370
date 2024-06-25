@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tOpHYeWl/JSPjnWBkbzfvctF8850GtA8mIiCi/u3TvQOeag5hvQJNCP5ohSGbULNhxPeVqpOTgQ2WGfLDfg/w==",
+  "dgSpecHash": "3EkW307h0a9ntdJql0b9vb55KPtsW5AhdlwHXknoRZkJ+tyavU7A3IMS4sNefPE0ODif2t4zStifw8D4qiNyqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makci\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\makci\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

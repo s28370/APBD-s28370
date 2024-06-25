@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\Tests.csproj": {}
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\Project.csproj": {
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\Project.csproj",
+        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\obj\\",
+        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\Tests.csproj": {
+    "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\makci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,8 +126,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\Project.csproj": {
-                "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\Project\\Project\\Project.csproj"
+              "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\Project.csproj": {
+                "projectPath": "C:\\Users\\makci\\OneDrive\\Робочий стіл\\APBD-s28370\\Project\\Project\\Project.csproj"
               }
             }
           }
